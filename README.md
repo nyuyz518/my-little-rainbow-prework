@@ -19,7 +19,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
     - Classes can be used as many times as you want. ex: `<div class="a-less-special-div"></div>`.
   - Elements nested inside other elements are called children.
     - Children inherit attributes from their parents.
-    - Don't nest everything. 
+    - Don't nest everything.
   - Elements next to one another are siblings.
     - Siblings do not inherit from one another, but are important for selecting in CSS.
 
@@ -56,12 +56,12 @@ First off make sure you have [forked](https://github.com/learn-co-students/my-li
 In that directory you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
 
 ###Making the Divs Visible
-If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles. 
+If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles.
 
 Let's fix this by adding the stylesheet to the `head` like so,
 ```html
   <head>
-  ... 
+  ...
     <link rel="stylesheet" type="text/css" href="main.css">
   ...
   </head>
@@ -104,4 +104,6 @@ And to give that id some CSS attributes we'll go into `main.css`, select the id,
 
 So to make sure the rainbow isn't so monochromatic you now need to repeat the above steps with the final six colors of the rainbow, and when you do you should have something like [this](http://i0.kym-cdn.com/photos/images/original/000/118/087/2468904593_6a7c692ab6.jpg).
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-little-rainbow' title='My Little Rainbow'>My Little Rainbow</a> on Learn.co and start learning to code for free.</p>
+When your finshed, please <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">install Firefox</a> if you haven't already as it is required for the screenshot tests to run. Then, type `learn` command from Terminal to run local tests.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-little-rainbow'>My Little Rainbow</a> on Learn.co and start learning to code for free.</p>
